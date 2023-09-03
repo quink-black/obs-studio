@@ -8,7 +8,6 @@ option(ENABLE_NEW_MPEGTS_OUTPUT "Use native SRT/RIST mpegts output" ON)
 find_package(
   FFmpeg REQUIRED
   COMPONENTS avcodec
-             avfilter
              avdevice
              avutil
              swscale
@@ -54,7 +53,6 @@ target_link_libraries(
           OBS::media-playback
           OBS::opts-parser
           FFmpeg::avcodec
-          FFmpeg::avfilter
           FFmpeg::avformat
           FFmpeg::avdevice
           FFmpeg::avutil

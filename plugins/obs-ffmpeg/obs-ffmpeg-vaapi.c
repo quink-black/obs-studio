@@ -36,7 +36,6 @@
 #include <libavutil/hwcontext.h>
 #include <libavcodec/avcodec.h>
 #include <libavformat/avformat.h>
-#include <libavfilter/avfilter.h>
 
 #include <pci/pci.h>
 
