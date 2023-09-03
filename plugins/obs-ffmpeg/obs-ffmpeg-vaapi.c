@@ -35,7 +35,6 @@
 #include <libavutil/pixdesc.h>
 #include <libavutil/hwcontext.h>
 #include <libavcodec/avcodec.h>
-#include <libavformat/avformat.h>
 
 #include <pci/pci.h>
 
